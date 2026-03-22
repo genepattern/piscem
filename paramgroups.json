@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Required Parameters",
+        "description": "Essential settings for building the piscem index",
+        "parameters": [
+            "reference.files",
+            "kmer.length",
+            "minimizer.length",
+            "threads",
+            "output.prefix"
+        ],
+        "hidden": false
+    },
+    {
+        "name": "Advanced Options",
+        "description": "Optional settings for customizing index construction",
+        "parameters": [
+            "work.dir",
+            "keep.intermediate.dbg",
+            "overwrite",
+            "no.ec.table",
+            "seed"
+        ],
+        "hidden": true
+    }
+]
