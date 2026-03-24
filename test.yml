@@ -5,7 +5,7 @@
 name: "Piscem"
 module: Piscem
 params:
-  reference.files: "https://beta.genepattern.org/gp/users/bozhih/tmp/run8200886893652625843.tmp/reference.files/1/Saccharomyces_cerevisiae.R64-1-1.dna.chromosome.I.fa.gz"
+  reference.files: "https://github.com/genepattern/piscem/raw/refs/heads/main/data/Saccharomyces_cerevisiae.R64-1-1.dna.chromosome.I.fa.gz"
   kmer.length: "31"
   minimizer.length: "19"
   threads: "8"
