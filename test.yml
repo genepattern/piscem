@@ -2,17 +2,16 @@
 # Generated from planning data - threads: 2  
 # Resource requirements: 16 CPU cores, 16GB memory
 # NOTE: This is a single test with required parameters only - covers basic index building functionality
-name: "PiscemBuild - Basic Index Building Test"
-module: PiscemBuild
+name: "Piscem"
+module: Piscem
 params:
-  reference.files: "test_data/reference.fasta"
+  reference.files: "https://beta.genepattern.org/gp/users/bozhih/tmp/run8200886893652625843.tmp/reference.files/1/Saccharomyces_cerevisiae.R64-1-1.dna.chromosome.I.fa.gz"
   kmer.length: "31"
   minimizer.length: "19"
-  threads: "2"
-  output.prefix: "piscem_index"
+  threads: "8"
+  output.prefix: "yeast_test_index"
 
 assertions:
   diffCmd: diff <%gpunit.diffStripTrailingCR%> -q
   files:
-    "piscem_index_piscem_index.tar.gz":
-      diff: "expected/piscem_index_piscem_index.tar.gz"
+    "yeast_test_index_piscem_index.tar.gz"

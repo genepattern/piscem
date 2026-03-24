@@ -3,7 +3,7 @@ FROM python:3.11-slim
 
 # Metadata labels
 LABEL maintainer="GenePattern"
-LABEL module.name="piscem.build"
+LABEL module.name="Piscem"
 LABEL module.version="0.16.2"
 LABEL module.language="python"
 

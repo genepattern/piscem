@@ -1,4 +1,4 @@
-# piscem.build (v0.16.2)
+# Piscem
 
 **Description**: Indexes one or more reference sequences using piscem, building a compacted colored de Bruijn graph and sshash data structure
 **Authors**: Rob Patro; University of Maryland, College Park
@@ -7,9 +7,9 @@
 
 ## Summary
 
-The piscem.build module creates high-performance indices for RNA-seq quantification using the piscem framework. This module wraps the `piscem build` command to construct a compacted colored de Bruijn graph and sshash data structure from reference transcriptome sequences. The resulting index enables ultra-fast mapping and quantification of RNA-seq reads.
+The Piscem module creates high-performance indices for RNA-seq quantification using the piscem framework. This module wraps the `piscem build` command to construct a compacted colored de Bruijn graph and sshash data structure from reference transcriptome sequences. The resulting index enables ultra-fast mapping and quantification of RNA-seq reads.
 
-piscem is designed for efficient single-cell RNA-seq analysis but also works well for bulk RNA-seq. The indexing process builds a minimizer-based data structure that allows for rapid k-mer lookups during the mapping phase. This module produces a compressed archive containing all necessary index files that can be used with piscem mapping modules.
+Piscem is designed for efficient single-cell RNA-seq analysis but also works well for bulk RNA-seq. The indexing process builds a minimizer-based data structure that allows for rapid k-mer lookups during the mapping phase. This module produces a compressed archive containing all necessary index files that can be used with piscem mapping modules.
 
 ## References
 
