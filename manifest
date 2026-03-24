@@ -1,6 +1,6 @@
-#PiscemBuild
+#Piscem
 #Sun Mar 22 23:14:39 UTC 2026
-LSID=urn\:lsid\:broad.mit.edu\:cancer.software.genepattern.module.generated\:61349\:1
+LSID=urn:lsid:genepattern.org:module.analysis:00484:1
 author=GenePattern Team
 categories=Preprocessing;RNA-seq;Indexing
 commandLine=python /module/piscem_build_wrapper.py --reference-files <reference.files> --kmer-length <kmer.length> --minimizer-length <minimizer.length> --threads <threads> --output <output.prefix> <work.dir> <keep.intermediate.dbg> <overwrite> <no.ec.table> <seed>
