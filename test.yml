@@ -2,10 +2,10 @@
 # Generated from planning data - threads: 2  
 # Resource requirements: 16 CPU cores, 16GB memory
 # NOTE: This is a single test with required parameters only - covers basic index building functionality
-name: "Piscem"
-module: Piscem
+name: "piscem.indexer"
+module: piscem.indexer
 params:
-  reference.files: "https://github.com/genepattern/piscem/raw/refs/heads/main/data/Saccharomyces_cerevisiae.R64-1-1.dna.chromosome.I.fa.gz"
+  reference.files: "https://github.com/genepattern/piscem.indexer/raw/refs/heads/main/data/Saccharomyces_cerevisiae.R64-1-1.dna.chromosome.I.fa.gz"
   kmer.length: "31"
   minimizer.length: "19"
   threads: "8"
